@@ -17,8 +17,8 @@ body {
 }
 
 .main {
-    margin: 60px 0 0 0;
-    width: 80%;
+    margin: 50px 0 0 0;
+    width: 75%;
 }
 
 .main .nav-bar {
@@ -26,7 +26,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin: 0 0 45px 0;
+    margin: 0 0 40px 0;
 }
 
 .main .nav-bar img {
@@ -59,7 +59,7 @@ body {
     grid-template-rows: 1fr;
     gap: 2%;
     width: 100%;
-    height: 75vh;
+    height: 65vh;
 }
 
 .main .section-one .first {
@@ -79,6 +79,9 @@ body {
 .image-info {
     display: grid;
     grid-template-columns: 35% 50%;
+    gap: 15%;
+    font-family: Inter;
+    margin: 40px 0;
 }
 
 .image-info .img-heading {
@@ -86,7 +89,51 @@ body {
     line-height: 50px;
 }
 
-.main .section-one .second {
-    background-color: aqua;
-
+.image-info .img-para {
+    line-height: 25px;
+    text-align: justify;
+    text-justify: distribute;
+    font-size: 14px;
 }
+
+.image-info .img-para button {
+    width: 40%;
+    padding: 15px;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    border: 0;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 20px 0;
+}
+
+.main .section-one .second {
+    background-color: hsl(240, 100%, 5%);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: Inter;
+}
+
+    .second-content {
+        width: 90%;
+        height: 90%;
+    }
+
+    .second-content h1 {
+        font-size: 45px;
+        color: hsl(35, 77%, 62%);
+        margin: 25px 0;
+    }
+
+    .second-content .news-info {
+        color: white;
+        margin: 20px 0;
+    }
+
+    .second-content .news-info p {
+        font-size: 14px;
+        color: hsla(36, 100%, 99%, 0.573);
+        margin: 10px 0 35px 0;
+    }
